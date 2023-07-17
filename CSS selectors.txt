@@ -1,0 +1,6 @@
+/* 
+'tag' {} é tag
+ponto {} é classe
+hashtag é id
+'tag' com [atributo] é a classe com o atributo
+* é geral */	B
