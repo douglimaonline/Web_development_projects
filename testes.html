@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet"
-     href="./style.css">
 </head>
 <body>
-    <h1>olar</h1>
-    <p>its a me, douglitas</p>
+    <style>
+        body{
+    padding: 0;
+    margin: 5;
+    background-color: aqua;
+}
+.container > div{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+.ar{
+    grid-column: span 2;
+}
+.terra{
+    order: 1;
+    grid-column: span 2;
+}
+.agua{
+    grid-row: span 2;
+}
+    </style>
 </body>
+<div class="container">
+    <div class="ar">AR</div>
+    <div class="terra">TERRA</div>
+    <div class="agua">AGUA</div>  
+</div>
 </html>
