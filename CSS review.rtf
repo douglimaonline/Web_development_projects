@@ -1,16 +1,11 @@
 {\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033\deflangfe1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil\fcharset0 Calibri;}}
-{\*\generator Riched20 10.0.22621}{\*\mmathPr\mnaryLim0\mdispDef1\mwrapIndent1440 }\viewkind4\uc1 
+{\*\generator Riched20 10.0.22621}{\*\mmathPr\mdispDef1\mwrapIndent1440 }\viewkind4\uc1 
 \pard\nowidctlpar\f0\fs22\lang22 SELETOR:\par
 'tag' \{\} \'e9 tag\par
 ponto \{\} \'e9 classe\par
 hashtag \'e9 id\par
 'tag' com [atributo] \'e9 a classe com o atributo\par
 * \'e9 geral */\tab B\par
-\par
-\par
-+=+ FLEX:\par
-\par
-display: flex\par
 \par
 CASCATE:\par
 1-Specificity:\par
@@ -2809,8 +2804,13 @@ Absolute: Relativo ao canto superior esquerdo da webpage\par
 Fixed: Relativo ao canto superior esquerdo do navegador (mesmo com o scroll)\par
 *z-Index: Define o que fica na frente do que (default z-Index = 0)\par
 \par
-\lang1033 Flex-wrap: no-wrap (standard), wrap, wrap-reverse\par
++=+ FLEX:\par
+display: flex\par
 \par
+flex-direction: row-reverse -- column-reverse;\par
+\par
+order:  refer to only one item, set the position related to a number\par
+\lang1033\par
 justify-content: define position in the width\par
 \par
 \par
@@ -3145,7 +3145,8 @@ ead4022c507e78d531d9fdfae3b272e2207598458b16e1ff0368833fe3ed704fc6000000004945
 4e44ae426082
 }\par
 \f0\par
-\lang1033\par
+\lang1033 Flex-wrap: no-wrap (standard), wrap, wrap-reverse\par
+\par
 align-items (no-wrap) or align-content (wrap): define position in the height\par
 \par
 \f1\lang22{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
