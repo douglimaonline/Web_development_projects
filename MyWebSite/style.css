@@ -15,3 +15,8 @@
       display: block;
       height: 50px; /* Altura do espaçador */
 }
+#portfolio:target::before {
+    content: ""; /* Constrói um elemento "invisível" */
+    display: block;
+    height: 50px; /* Altura do espaçador */
+}
