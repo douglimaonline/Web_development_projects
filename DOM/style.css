@@ -1,3 +1,7 @@
 input {
     display: inline-flexbox;
 }
+
+.huge {
+    font-size: 10rem;
+}
