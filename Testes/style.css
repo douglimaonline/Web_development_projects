@@ -1,0 +1,21 @@
+body {
+    justify-content: center;
+    background-color: #F5E8B7;
+    color: #CD5C08;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}
