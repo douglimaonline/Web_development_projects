@@ -55,8 +55,8 @@
             </ul>
           </div>
           
-          <!-- Theme Button Mobile -->
-          <div id="ChangeCollorButton" class="d-block d-lg-none form-check form-switch align-self-center position-fixed bottom-0 end-0 mb-4 me-4">
+          <!-- Theme Button -->
+          <div id="ChangeCollorButton" class="form-switch position-fixed bottom-0 end-0 mb-4 me-4">
             <input id="input-Button" class="form-check-input bg-dark opacity-75" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
             <label id="label-Button" class="form-check-label" for="flexSwitchCheckChecked"></label>
           </div>
@@ -75,10 +75,10 @@
             <div class="d-flex justify-content-center p-4" id="foto">
               <img class="d-block d-lg-none" src="./images/eu_mobile.jpg" alt="foto_social">
             </div>
-            <h1 class="display-lg-6 fw-bold lh-1 text-body-emphasis mb-lg-0 pb-lg-2 px-lg-0 text-center text-lg-start">Douglas Lima Barboza</h1>
-            <h3 class="fw-bold lh-1 mb-4 pt-5 text-center text-lg-start">Desenvolvedor de Software</h3>
-            <p class="lead">Tenho dez anos de experiência em contabilidade, com especialização na área tributária, atuei em grandes empresas do mercado de energia e consultoria contábil/fiscal.</p>
-            <p class="lead mb-0">Recentemente fiz uma transição de carreira para o desenvolvimento de Software. Possuo conhecimento avançado de Excel (VBA) e no momento estou desenvolvendo meus conhecimentos em Phyton (Pandas, Beautiful Soup e Tkinter), C#, JavaScript, HTML e CSS.</p>
+            <h1 class="display-lg-6 fw-bold lh-1 text-body-emphasis mb-lg-0 pb-lg-2 px-lg-0 text-center text-lg-start hidden">Douglas Lima Barboza</h1>
+            <h3 class="fw-bold lh-1 mb-4 pt-5 text-center text-lg-start hidden">Desenvolvedor de Software</h3>
+            <p class="lead hidden">Tenho dez anos de experiência em contabilidade, com especialização na área tributária, atuei em grandes empresas do mercado de energia e consultoria contábil/fiscal.</p>
+            <p class="lead mb-0 hidden">Recentemente fiz uma transição de carreira para o desenvolvimento de Software. Possuo conhecimento avançado de Excel (VBA) e no momento estou desenvolvendo meus conhecimentos em Phyton (Pandas, Beautiful Soup e Tkinter), C#, JavaScript, HTML e CSS.</p>
           </div>
            
           <!-- Contact -->
@@ -142,19 +142,19 @@
       <div class="flex-shrink-0 p-3 rounded-3 border mt-5">
         <div class="d-flex align-items-center justify-content-center text-decoration-none">
           <svg class="bi pe-none me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-          <span class="fw-bold mb-4 pt-2 text-body-emphasis"><h1>Currículo</h1></span>
+          <span class="fw-bold mb-4 pt-2 text-body-emphasis hidden"><h1>Currículo</h1></span>
         </div>
         <ul class="list-unstyled ps-0">
 
           <!-- Eneva -->
           <li class="mb-1">
             <div class="ps-3 d-inline-flex align-items-center rounded border-0">
-              <h4>Eneva S.A</h4>
+              <h4 class="hidden">Eneva S.A</h4>
             </div>
             <div class="collapse.show ps-3" id="home-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1">
-                <li class="text-decoration-none rounded">De 05/2018 a 05/2023</li>
-                <p>Atribuições: Realizar apuração de IR e CS no Lucro Real, PIS e COFINS no Regime Não-cumulativo, cálculos de Lucro da Exploração.<br />Elaboração de DIRF, DCTF, REINF, DCTFweb, DCOMP, EFD-Contribuições e ECF. Apuração de retidos na fonte de tributos federais, rotina paralegal, pedido e acompanhamento de benefícios fiscais como a SUDENE e regimes especiais como REIDI, resposta à Autos de Infração de órgãos federais e atendimento à auditoria externa.<br />Desenvolvimento de soluções para automatização do processo de trabalho em conjunto com profissionais de tecnologia.</p>
+                <li class="text-decoration-none rounded hidden">De 05/2018 a 05/2023</li>
+                <p class="hidden">Atribuições: Realizar apuração de IR e CS no Lucro Real, PIS e COFINS no Regime Não-cumulativo, cálculos de Lucro da Exploração.<br />Elaboração de DIRF, DCTF, REINF, DCTFweb, DCOMP, EFD-Contribuições e ECF. Apuração de retidos na fonte de tributos federais, rotina paralegal, pedido e acompanhamento de benefícios fiscais como a SUDENE e regimes especiais como REIDI, resposta à Autos de Infração de órgãos federais e atendimento à auditoria externa.<br />Desenvolvimento de soluções para automatização do processo de trabalho em conjunto com profissionais de tecnologia.</p>
               </ul>
             </div>
           </li>
@@ -162,12 +162,12 @@
           <!-- Deloitte -->
           <li class="mb-1">
             <div class="ps-3 d-inline-flex align-items-center rounded border-0">
-              <h4>Deloitte Touche Tohmatsu</h4>
+              <h4 class="hidden">Deloitte Touche Tohmatsu</h4>
             </div>
             <div class="collapse.show ps-3" id="dashboard-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1">
-                <li class="d-inline-flex text-decoration-none rounded">De 06/2016 a 10/2017</li>
-                <p>Atribuições: Executar conciliação bancária, análise contábil e fechamento de balancete em clientes do ramo de Energia e Gás Onshore, primeiro contato com os sistemas ERP (SAP e Oracle). Lançamento de documentos fiscais e elaboração de DIRF.</p>
+                <li class="d-inline-flex text-decoration-none rounded hidden">De 06/2016 a 10/2017</li>
+                <p class="hidden">Atribuições: Executar conciliação bancária, análise contábil e fechamento de balancete em clientes do ramo de Energia e Gás Onshore, primeiro contato com os sistemas ERP (SAP e Oracle). Lançamento de documentos fiscais e elaboração de DIRF.</p>
               </ul>
             </div>
           </li>
@@ -175,12 +175,12 @@
           <!-- Mazars -->
           <li class="mb-1">
             <div class="ps-3 d-inline-flex align-items-center rounded border-0">
-              <h4>Mazars</h4>
+              <h4 class="hidden">Mazars</h4>
             </div>
             <div class="collapse.show ps-3" id="orders-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1">
-                  <li class="d-inline-flex text-decoration-none rounded">03/2012 a 09/2012</li>
-                  <p>Atribuições: Conferência de lançamentos contábeis e retenções de impostos federais. <br /> Elaboração de balancete mensal, apuração e controle de IRPJ e CSLL no Lucro Presumido, PIS e COFINS no Regime Cumulativo.</p>
+                  <li class="d-inline-flex text-decoration-none rounded hidden">03/2012 a 09/2012</li>
+                  <p class="hidden">Atribuições: Conferência de lançamentos contábeis e retenções de impostos federais. <br /> Elaboração de balancete mensal, apuração e controle de IRPJ e CSLL no Lucro Presumido, PIS e COFINS no Regime Cumulativo.</p>
               </ul>
             </div>
           </li>
@@ -189,10 +189,10 @@
           <li class="border-top my-3"></li>
           <li class="mb-1">
             <div class="ps-3 d-inline-flex align-items-center rounded border-0">
-              <h4>Formação e Treinamentos</h4>
+              <h4 class="hidden">Formação e Treinamentos</h4>
             </div>
             <div class="collapse.show" id="account-collapse">
-              <ul class="btn-toggle-nav fw-normal pb-1 ps-4">
+              <ul class="btn-toggle-nav fw-normal pb-1 ps-4 hidden">
                 <li class="py-2">Tecnologia em Análise e Desenvolvimento de Sistema | Faculdade Anhanguera | Previsão de conclusão em 07/2025.</li>
                 <li class="py-2">100 days of Code – The Complete Phyton Pro | Udemy – Dra. Angela Yu | Em andamento.</li>
                 <li class="py-2">The Complete 2023 Web Development Bootcamp | Udemy – Dra. Angela Yu | Em andamento.</li>
@@ -213,7 +213,7 @@
 
   <!-- portolio -->
   <section id="portfolio">
-    <div class="container rounded-3 border mt-5">
+    <div class="container rounded-3 border mt-5 hidden">
       <div id="portfolio title">
         <span class="fw-bold mb-lg-2 pt-3 text-body-emphasis d-flex justify-content-center"><h1>Portfolio</h1></span>
       </div>
@@ -331,6 +331,6 @@
 
   <!-- bootstrap javascript CDN -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  <script src="index.js"></script>
+  <script defer src="index.js"></script>
 </body>
 </html>

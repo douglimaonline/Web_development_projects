@@ -15,16 +15,28 @@
       display: block;
       height: 50px; /* Altura do espaçador */
 }
+
 #portfolio:target::before {
     content: ""; /* Constrói um elemento "invisível" */
     display: block;
     height: 50px; /* Altura do espaçador */
 }
+
 #foto img{
     width: 180px;
     border-radius: 50%;
 }
+
 #ChangeCollorButton #input-Button {
     width: 42px;
     height: 24px;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 2s;
+}
+
+.show {
+    opacity: 1;
 }
