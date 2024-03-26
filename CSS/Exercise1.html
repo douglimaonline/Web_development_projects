@@ -17,9 +17,11 @@
             color: azure;
             display: flex;
             flex: 1 1 100vw;
+            font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
+            color: #ebebeb;
         }
         
-        header, main, aside, footer {
+        header, main, footer {
             display: flex;
             background: #a1a1a1;
             margin: 3px;
@@ -27,34 +29,81 @@
 
         header {            
             flex-basis: 100vw;
-            height: 40px;
+            height: 80px;
             padding: 0 0 0 6px;
         }
 
         main {
-            flex: 10 1 100vw;
-            height: calc(100vh - 76px);
+            flex-wrap: wrap;
             justify-content: center;
+            align-content: start;
+            flex: 10 1 100vw;
+            height: calc(100vh - 178px);
         }
         
         .UserContent {
             display: flex;
             background: black;
+            align-items: center;
             flex-basis: 70vw;
-            height: 100px;
+            height: 102px;
+            padding: 0 0 0 18px;
+            margin: 0 auto;
+        }
+
+        .userImage {
+            padding: 1px;
+            border-radius: 0;
+            border: none;
+            width: 64px;
+            height: 64px;
+        }
+
+        .userName {
+            padding: 0 0 0 18px;
+            font-size: 26px;
+        }
+
+        .libraryTables {
+            display: flex;
+            background: black;
+            flex-basis: 70vw;
+            height: 50px;
             padding: 0 0 0 6px;
+            margin: 3px;
+        }
+
+        .gameContent {
+            display: flex;
+            background: black;
+            flex-basis: 70vw;
+            height: 180px;
+            padding: 0 0 0 6px;
+            margin: 3px;
         }
 
         footer {
             flex: 1 1 100vw;
+            height: 80px;
         }
+
 
     </style>
 </head>
 <body>
     <header>Header</header>
     <main>
-    <div class="UserContent">Content</div>
+    <div class="UserContent">
+        <img
+        class="userImage"
+        src="https://avatars.cloudflare.steamstatic.com/9cbb5621ce86f70a34dc55705713aca37dd64c45_medium.jpg"
+        />
+        <p class="userName">
+            dodozin
+        </p>
+    </div>
+    <div class="libraryTables">Libraries</div>
+    <div class="gameContent">Game Content</div>
     </main>
     <footer>footer</footer>
 </body>
