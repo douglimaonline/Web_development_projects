@@ -59,6 +59,10 @@
             height: 64px;
         }
 
+        .gameImage {
+            padding: 1px;
+        }
+
         .userName {
             padding: 0 0 0 18px;
             font-size: 26px;
@@ -78,8 +82,17 @@
             background: black;
             flex-basis: 70vw;
             height: 180px;
-            padding: 0 0 0 6px;
+            padding: 6px;
             margin: 3px;
+        }
+
+        .gameInfo {
+            background: pink;
+            flex-grow: 1;
+        }
+
+        .options {
+            flex-grow: 1;
         }
 
         footer {
@@ -103,7 +116,18 @@
         </p>
     </div>
     <div class="libraryTables">Libraries</div>
-    <div class="gameContent">Game Content</div>
+    <div class="gameContent">
+        <img
+        class="gameImage"
+        src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg"
+        />
+        <div class="gameInfo">
+            game info
+        </div>
+        <div class="options">
+            options
+        </div>
+    </div>
     </main>
     <footer>footer</footer>
 </body>
